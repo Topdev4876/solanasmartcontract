@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+myfirst = "6TZU1iPFP6TiWWGdSGPzY7xbysk4zWK4d1pLraSoo3Sm"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/kwon/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
